@@ -16,6 +16,9 @@
    },
    "name" : "Dist-Zilla-Plugin-Test-PodSpelling",
    "no_index" : {
+      "directory" : [
+         "corpus"
+      ],
       "file" : [
          "perlcritic.rc"
       ]
@@ -40,10 +43,15 @@
       },
       "test" : {
          "requires" : {
+            "Cwd" : 0,
+            "Dist::Zilla::Tester" : 0,
             "English" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
-            "Test::More" : "0.88"
+            "Path::Class" : 0,
+            "Test::More" : "0.88",
+            "Test::Spelling" : 0,
+            "Test::Tester" : 0
          }
       }
    },

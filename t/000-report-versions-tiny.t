@@ -48,16 +48,20 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
+eval { $v .= pmver('Cwd','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::InlineFiles','any version') };
 eval { $v .= pmver('Dist::Zilla::Role::TextTemplate','any version') };
+eval { $v .= pmver('Dist::Zilla::Tester','any version') };
 eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('Moose','any version') };
+eval { $v .= pmver('Path::Class','any version') };
 eval { $v .= pmver('Pod::Wordlist::hanekomu','any version') };
 eval { $v .= pmver('Test::More','0.88') };
 eval { $v .= pmver('Test::Spelling','any version') };
+eval { $v .= pmver('Test::Tester','any version') };
 eval { $v .= pmver('strict','any version') };
 eval { $v .= pmver('warnings','any version') };
 

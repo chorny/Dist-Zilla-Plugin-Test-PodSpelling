@@ -12,10 +12,15 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Author tests for POD spelling",
   "AUTHOR" => "Caleb Cushing <xenoterracide\@gmail.com>, Marcel Gruenauer <marcel\@cpan.org>, Harley Pig <harleypig\@gmail.com>",
   "BUILD_REQUIRES" => {
+    "Cwd" => 0,
+    "Dist::Zilla::Tester" => 0,
     "English" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
-    "Test::More" => "0.88"
+    "Path::Class" => 0,
+    "Test::More" => "0.88",
+    "Test::Spelling" => 0,
+    "Test::Tester" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
