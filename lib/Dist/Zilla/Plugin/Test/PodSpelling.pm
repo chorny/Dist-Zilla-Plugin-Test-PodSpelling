@@ -3,7 +3,7 @@ use 5.008;
 use strict;
 use warnings;
 BEGIN {
-	our $VERSION = '2.0.1'; # VERSION
+	our $VERSION = 'v2.0.1'; # VERSION
 }
 
 use Moose;
@@ -96,7 +96,7 @@ Dist::Zilla::Plugin::Test::PodSpelling - Author tests for POD spelling
 
 =head1 VERSION
 
-version 2.0.1
+version v2.0.1
 
 =head1 SYNOPSIS
 

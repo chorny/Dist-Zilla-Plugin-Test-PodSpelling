@@ -9,31 +9,33 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Author tests for POD spelling',
-  'AUTHOR' => 'Caleb Cushing <xenoterracide@gmail.com>, Marcel Gruenauer <marcel@cpan.org>, Harley Pig <harleypig@gmail.com>',
-  'BUILD_REQUIRES' => {
-    'English' => '0',
-    'File::Find' => '0',
-    'File::Temp' => '0',
-    'Test::More' => '0'
+  "ABSTRACT" => "Author tests for POD spelling",
+  "AUTHOR" => "Caleb Cushing <xenoterracide\@gmail.com>, Marcel Gruenauer <marcel\@cpan.org>, Harley Pig <harleypig\@gmail.com>",
+  "BUILD_REQUIRES" => {
+    "English" => 0,
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Test::More" => "0.88"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Dist-Zilla-Plugin-Test-PodSpelling',
-  'EXE_FILES' => [],
-  'LICENSE' => 'artistic_2',
-  'NAME' => 'Dist::Zilla::Plugin::Test::PodSpelling',
-  'PREREQ_PM' => {
-    'Dist::Zilla::Plugin::InlineFiles' => '0',
-    'Dist::Zilla::Role::TextTemplate' => '0',
-    'Moose' => '0',
-    'Pod::Wordlist::hanekomu' => '0',
-    'Test::Spelling' => '0'
+  "DISTNAME" => "Dist-Zilla-Plugin-Test-PodSpelling",
+  "EXE_FILES" => [],
+  "LICENSE" => "artistic_2",
+  "NAME" => "Dist::Zilla::Plugin::Test::PodSpelling",
+  "PREREQ_PM" => {
+    "Dist::Zilla::Plugin::InlineFiles" => 0,
+    "Dist::Zilla::Role::TextTemplate" => 0,
+    "Moose" => 0,
+    "Pod::Wordlist::hanekomu" => 0,
+    "Test::Spelling" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '2.0.1',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "v2.0.1",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
