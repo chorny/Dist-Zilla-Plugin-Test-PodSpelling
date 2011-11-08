@@ -12,13 +12,15 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Author tests for POD spelling",
   "AUTHOR" => "Caleb Cushing <xenoterracide\@gmail.com>, Marcel Gruenauer <marcel\@cpan.org>, Harley Pig <harleypig\@gmail.com>",
   "BUILD_REQUIRES" => {
+    "Carp" => 0,
     "Cwd" => 0,
     "Dist::Zilla::Tester" => 0,
     "English" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Path::Class" => 0,
-    "Test::More" => "0.88",
+    "Scalar::Util" => 0,
+    "Test::More" => "0.94",
     "Test::Spelling" => 0,
     "Test::Tester" => 0
   },
