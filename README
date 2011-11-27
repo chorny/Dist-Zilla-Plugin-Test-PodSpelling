@@ -49,7 +49,7 @@ METHODS
     add them manually just because they might appear in the "AUTHORS"
     section of the generated POD document.
 
-ACKNOWLEDGEMENTS
+ACKNOWLEDGMENTS
     *   Randy Stauner
 
         providing initial tests
