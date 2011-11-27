@@ -33,5 +33,3 @@ Marcel
 Gruenauer
 Harley
 Pig
-Caleb
-Cushing
