@@ -1,6 +1,6 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-PodSpelling
 
-2.001002  2011-11-26
+2.001002  2011-11-27
 	- attempt to fix issue with spellchecking engines not working
 
 2.001001  2011-10-26

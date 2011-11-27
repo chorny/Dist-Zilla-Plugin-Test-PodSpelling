@@ -30,6 +30,10 @@ has stopwords => (
 	default => sub { [] },                   # default to original
 	handles => {
 		push_stopwords => 'push',
+		sort_stopwords => 'sort',
+		uniq_stopwords => 'uniq',
+		join_stopwords => 'join',
+		no_stopwords   => 'is_empty',
 	}
 );
 
@@ -59,7 +63,7 @@ around add_file => sub {
 		$self->log_debug( 'no copyright_holder found' );
 	}
 
-	if (@{ $self->stopwords } > 0) {
+	unless ( $self->no_stopwords ) {
 		$add_stopwords = 'add_stopwords(<DATA>);';
 		$stopwords = join "\n", '__DATA__', @{ $self->stopwords };
 	}
