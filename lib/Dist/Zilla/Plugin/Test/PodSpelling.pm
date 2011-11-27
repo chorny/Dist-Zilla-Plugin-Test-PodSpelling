@@ -65,7 +65,9 @@ around add_file => sub {
 
 	unless ( $self->no_stopwords ) {
 		$add_stopwords = 'add_stopwords(<DATA>);';
-		$stopwords = join "\n", '__DATA__', @{ $self->stopwords };
+		$stopwords = join "\n", '__DATA__',
+			@{ $self->sort_stopwords->uniq_stopwords }
+			;
 	}
 	$self->$orig(
 		Dist::Zilla::File::InMemory->new(
