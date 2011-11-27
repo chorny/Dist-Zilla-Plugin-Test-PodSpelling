@@ -32,3 +32,4 @@ t/release-pod-syntax.t
 t/release-portability.t
 t/release-test-version.t
 t/release-unused-vars.t
+t/test-file.t
