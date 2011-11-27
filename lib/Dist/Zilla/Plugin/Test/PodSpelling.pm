@@ -30,9 +30,7 @@ has stopwords => (
 	default => sub { [] },                   # default to original
 	handles => {
 		push_stopwords => 'push',
-		sort_stopwords => 'sort',
 		uniq_stopwords => 'uniq',
-		join_stopwords => 'join',
 		no_stopwords   => 'is_empty',
 	}
 );
@@ -65,9 +63,7 @@ around add_file => sub {
 
 	unless ( $self->no_stopwords ) {
 		$add_stopwords = 'add_stopwords(<DATA>);';
-		$stopwords = join "\n", '__DATA__',
-			$self->uniq_stopwords
-			;
+		$stopwords = join "\n", '__DATA__', $self->uniq_stopwords;
 	}
 	$self->$orig(
 		Dist::Zilla::File::InMemory->new(
