@@ -64,6 +64,10 @@ Caleb Cushing <xenoterracide@gmail.com>
 
 =item *
 
+Randy Stauner <randy@magnificent-tears.com>
+
+=item *
+
 Marcel Gruenauer <marcel@cpan.org>
 
 =item *
