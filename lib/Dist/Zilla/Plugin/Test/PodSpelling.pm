@@ -203,7 +203,7 @@ Harley Pig <harleypig@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2011 by Caleb Cushing.
+This software is Copyright (c) 2012 by Caleb Cushing.
 
 This is free software, licensed under:
 
