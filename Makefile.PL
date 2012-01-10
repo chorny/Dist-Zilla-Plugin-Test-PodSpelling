@@ -34,7 +34,6 @@ my %WriteMakefileArgs = (
   "LICENSE" => "artistic_2",
   "NAME" => "Dist::Zilla::Plugin::Test::PodSpelling",
   "PREREQ_PM" => {
-    "Data::Dumper::Concise" => 0,
     "Dist::Zilla::Plugin::InlineFiles" => 0,
     "Moose" => 0,
     "Pod::Wordlist::hanekomu" => 0,
