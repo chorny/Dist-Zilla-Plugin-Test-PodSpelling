@@ -68,7 +68,7 @@ around add_file => sub {
 	}
 
 	foreach my $file ( @{ $self->found_files } ) {
-			$self->log_debug( 'file: ' . Dumper $file );
+			$self->log_debug( 'file: ' . $file->name );
 	}
 
 	unless ( $self->no_stopwords ) {
