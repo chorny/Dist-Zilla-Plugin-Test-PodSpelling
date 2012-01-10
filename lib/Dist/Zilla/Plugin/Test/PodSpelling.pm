@@ -68,7 +68,12 @@ around add_file => sub {
 	}
 
 	foreach my $file ( @{ $self->found_files } ) {
-			$self->log_debug( 'file: ' . $file->name );
+		$self->log_debug( 'file: ' . $file->name );
+
+		foreach ( split( '/', $file->name ) ) {
+			my ( $word ) = $_ =~ /(\w+)/xms;
+			$self->log_debug( 'word: ' . $word);
+		}
 	}
 
 	unless ( $self->no_stopwords ) {
