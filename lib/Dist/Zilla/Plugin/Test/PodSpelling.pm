@@ -3,11 +3,16 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '2.001004'; # VERSION
+our $VERSION = '2.001005'; # VERSION
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
-with 'Dist::Zilla::Role::TextTemplate';
+with (
+	'Dist::Zilla::Role::TextTemplate',
+	'Dist::Zilla::Role::FileFinderUser' => {
+		default_finders => [ ':InstallModules' ],
+	},
+);
 
 sub mvp_multivalue_args { return qw( stopwords ) }
 
@@ -61,6 +66,10 @@ around add_file => sub {
 		$self->log_debug( 'no copyright_holder found' );
 	}
 
+	foreach my $file ( @{ $self->found_files } ) {
+			$self->log_debug( 'file: ' . $file );
+	}
+
 	unless ( $self->no_stopwords ) {
 		$add_stopwords = 'add_stopwords(<DATA>);';
 		$stopwords = join "\n", '__DATA__', $self->uniq_stopwords;
@@ -97,7 +106,7 @@ Dist::Zilla::Plugin::Test::PodSpelling - Author tests for POD spelling
 
 =head1 VERSION
 
-version 2.001004
+version 2.001005
 
 =head1 SYNOPSIS
 
