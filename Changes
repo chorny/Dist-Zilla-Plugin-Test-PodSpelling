@@ -1,6 +1,6 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-PodSpelling
 
-2.001005  2012-01-09
+2.001005  2012-01-10
 
 2.001004  2011-12-13
 	- Fix tests so that spell check passes ( rwstauner )

@@ -34,3 +34,9 @@ Marcel
 Gruenauer
 Harley
 Pig
+lib
+Dist
+Zilla
+Plugin
+PodSpellingTests
+Test

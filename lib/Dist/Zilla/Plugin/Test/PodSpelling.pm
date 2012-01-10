@@ -68,11 +68,14 @@ around add_file => sub {
 	}
 
 	foreach my $file ( @{ $self->found_files } ) {
-		$self->log_debug( 'file: ' . $file->name );
+		# many of my stopwords are part of a filename
+		$self->log_debug( 'splitting filenames for more words' );
 
 		foreach ( split( '/', $file->name ) ) {
 			my ( $word ) = $_ =~ /(\w+)/xms;
 			$self->log_debug( 'word: ' . $word);
+
+			$self->push_stopwords( $word );
 		}
 	}
 
