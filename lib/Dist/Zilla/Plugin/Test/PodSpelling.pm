@@ -2,6 +2,7 @@ package Dist::Zilla::Plugin::Test::PodSpelling;
 use 5.008;
 use strict;
 use warnings;
+use Data::Dumper::Concise;
 
 our $VERSION = '2.001005'; # VERSION
 
@@ -67,7 +68,7 @@ around add_file => sub {
 	}
 
 	foreach my $file ( @{ $self->found_files } ) {
-			$self->log_debug( 'file: ' . $file );
+			$self->log_debug( 'file: ' . Dumper $file );
 	}
 
 	unless ( $self->no_stopwords ) {
