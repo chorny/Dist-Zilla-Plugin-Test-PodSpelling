@@ -19,11 +19,14 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "Path::Class" => 0,
+    "Pod::Wordlist::hanekomu" => 0,
     "Scalar::Util" => 0,
     "Test::DZil" => 0,
+    "Test::EOL" => 0,
     "Test::More" => "0.94",
     "Test::Requires" => 0,
-    "Test::Spelling" => 0,
+    "Test::Script" => "1.05",
+    "Test::Spelling" => "0.12",
     "Test::Tester" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -41,7 +44,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "2.002001",
+  "VERSION" => "2.002002",
   "test" => {
     "TESTS" => "t/*.t"
   }
