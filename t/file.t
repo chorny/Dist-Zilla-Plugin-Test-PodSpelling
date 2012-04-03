@@ -24,7 +24,7 @@ my $fn
 	->subdir('build')
 	->subdir('xt')
 	->subdir('author')
-	->file('test-podspelling.t')
+	->file('pod-spell.t')
 	;
 
 ok ( -e $fn, 'test file exists');
