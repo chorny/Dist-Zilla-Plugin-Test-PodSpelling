@@ -23,7 +23,7 @@ my $fn
 	->tempdir
 	->subdir('build')
 	->subdir('xt')
-	->subdir('release')
+	->subdir('author')
 	->file('test-podspelling.t')
 	;
 
