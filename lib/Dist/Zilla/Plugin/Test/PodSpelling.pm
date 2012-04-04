@@ -221,8 +221,7 @@ use strict;
 use warnings;
 use Test::More;
 
-use {{ $wordlist }};
-eval "use Test::Spelling 0.12; 1" or die "$@";
+eval "use Test::Spelling 0.12; use {{ $wordlist }}; 1" or die "$@";
 
 {{ $set_spell_cmd }}
 {{ $add_stopwords }}

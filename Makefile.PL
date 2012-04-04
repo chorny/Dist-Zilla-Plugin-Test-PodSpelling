@@ -19,7 +19,6 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "Path::Class" => 0,
-    "Pod::Wordlist::hanekomu" => 0,
     "Scalar::Util" => 0,
     "Test::DZil" => 0,
     "Test::More" => "0.94",

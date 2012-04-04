@@ -11,8 +11,7 @@ use strict;
 use warnings;
 use Test::More;
 
-use Pod::Wordlist::hanekomu;
-eval "use Test::Spelling 0.12; 1" or die "$@";
+eval "use Test::Spelling 0.12; use Pod::Wordlist::hanekomu; 1" or die "$@";
 
 
 add_stopwords(<DATA>);
