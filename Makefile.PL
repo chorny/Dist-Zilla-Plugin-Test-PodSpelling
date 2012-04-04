@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.94",
     "Test::Requires" => 0,
     "Test::Script" => "1.05",
-    "Test::Spelling" => "0.12",
+    "Test::Spelling" => 0,
     "Test::Tester" => 0
   },
   "CONFIGURE_REQUIRES" => {
