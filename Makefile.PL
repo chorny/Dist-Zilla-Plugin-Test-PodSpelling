@@ -15,6 +15,7 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Cwd" => 0,
     "Dist::Zilla::Tester" => 0,
+    "English" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Path::Class" => 0,
