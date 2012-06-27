@@ -15,7 +15,6 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Cwd" => 0,
     "Dist::Zilla::Tester" => 0,
-    "English" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Path::Class" => 0,
@@ -41,7 +40,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "2.002004",
+  "VERSION" => "2.002003",
   "test" => {
     "TESTS" => "t/*.t"
   }
