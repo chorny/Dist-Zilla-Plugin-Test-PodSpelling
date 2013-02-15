@@ -32,6 +32,11 @@ METHODS
 
     Defaults to Pod::Wordlist::hanekomu.
 
+  add_stopwords
+    Called to add stopwords to the stopwords array. It is used to determine
+    if automagically detected words are valid and print out debug logging
+    for the process.
+
   spell_cmd
     If "spell_cmd" is set then "set_spell_cmd( your_spell_command );" is
     added to the test file to allow for custom spell check programs.
