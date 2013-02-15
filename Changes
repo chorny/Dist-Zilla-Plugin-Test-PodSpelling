@@ -1,5 +1,7 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-PodSpelling
 
+2.004002  2013-02-14
+
 2.004001  2013-02-14
 	- Add documentation for directories feature
 
