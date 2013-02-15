@@ -165,7 +165,7 @@ L<Test::Spelling>.
 
 Defaults to L<Pod::Wordlist::hanekomu>.
 
-=head2 add_stopwords
+=head2 add_stopword
 
 Called to add stopwords to the stopwords array. It is used to determine if
 automagically detected words are valid and print out debug logging for the
