@@ -1,6 +1,6 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-PodSpelling
 
-2.002007  2013-02-14
+2.004000  2013-02-14
 	- Add support for customizable search directories GH #8
 	- fix bug where unicode names weren't being added properly as stopwords
 	  GH #9
