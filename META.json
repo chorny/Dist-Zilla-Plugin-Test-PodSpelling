@@ -45,6 +45,7 @@
             "Dist::Zilla::Role::TextTemplate" : "0",
             "Moose" : "0",
             "Pod::Wordlist::hanekomu" : "0",
+            "Test::Spelling" : "0.12",
             "perl" : "5.010",
             "strict" : "0",
             "warnings" : "0"

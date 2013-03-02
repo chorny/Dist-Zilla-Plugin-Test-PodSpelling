@@ -39,6 +39,7 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Role::TextTemplate" => 0,
     "Moose" => 0,
     "Pod::Wordlist::hanekomu" => 0,
+    "Test::Spelling" => "0.12",
     "strict" => 0,
     "warnings" => 0
   },
