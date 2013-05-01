@@ -53,7 +53,7 @@ ATTRIBUTES
     in "dist.ini" are automatically added as stopwords so you don't have to
     add them manually just because they might appear in the "AUTHORS"
     section of the generated POD document. The same goes for contributors
-    listed under the 'x_contributors' field on your dist's META file.
+    listed under the 'x_contributors' field on your distributions META file.
 
 METHODS
   add_stopword
