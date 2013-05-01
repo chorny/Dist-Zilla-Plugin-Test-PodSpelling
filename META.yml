@@ -8,6 +8,7 @@ author:
 build_requires:
   Carp: 0
   Cwd: 0
+  Dist::Zilla::Plugin::Meta::Contributors: 0
   Dist::Zilla::Tester: 0
   English: 0
   File::Find: 0
@@ -39,7 +40,7 @@ provides:
     version: 1.112140
   Dist::Zilla::Plugin::Test::PodSpelling:
     file: lib/Dist/Zilla/Plugin/Test/PodSpelling.pm
-    version: 2.004004
+    version: 2.004005
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Dist::Zilla::Role::FileFinderUser: 0
@@ -54,4 +55,4 @@ resources:
   bugtracker: https://github.com/xenoterracide/dist-zilla-plugin-test-podspelling/issues
   homepage: https://metacpan.org/dist/Dist-Zilla-Plugin-Test-PodSpelling
   repository: git://github.com/xenoterracide/dist-zilla-plugin-test-podspelling.git
-version: 2.004004
+version: 2.004005

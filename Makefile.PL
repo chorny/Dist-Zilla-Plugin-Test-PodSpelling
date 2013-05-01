@@ -32,6 +32,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Carp" => 0,
     "Cwd" => 0,
+    "Dist::Zilla::Plugin::Meta::Contributors" => 0,
     "Dist::Zilla::Tester" => 0,
     "English" => 0,
     "File::Find" => 0,
@@ -44,7 +45,7 @@ my %WriteMakefileArgs = (
     "Test::Script" => "1.05",
     "Test::Tester" => 0
   },
-  "VERSION" => "2.004004",
+  "VERSION" => "2.004005",
   "test" => {
     "TESTS" => "t/*.t"
   }
