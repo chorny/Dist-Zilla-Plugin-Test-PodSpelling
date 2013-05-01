@@ -1,6 +1,7 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-PodSpelling
 
 2.004005  2013-05-01
+	- add contributers to the stopwords list
 
 2.004004  2013-04-29
 	- fix tests broken by Test::Spelling 0.18 which changed Test::Builder
