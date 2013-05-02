@@ -3,7 +3,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = '2.006000'; # VERSION
+our $VERSION = '2.006001'; # VERSION
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -132,7 +132,7 @@ Dist::Zilla::Plugin::Test::PodSpelling - Author tests for POD spelling
 
 =head1 VERSION
 
-version 2.006000
+version 2.006001
 
 =head1 SYNOPSIS
 

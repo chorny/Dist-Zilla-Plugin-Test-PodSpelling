@@ -5,6 +5,7 @@ META.json
 META.yml
 Makefile.PL
 README
+SubmittingPatches
 corpus/foo/bin/foo
 corpus/foo/dist.ini
 corpus/foo/lib/Foo.pm
