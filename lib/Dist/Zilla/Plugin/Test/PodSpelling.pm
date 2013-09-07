@@ -212,6 +212,24 @@ When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
 feature.
 
+=head1 CONTRIBUTORS
+
+=over 4
+
+=item *
+
+Breno G. de Oliveira <garu@cpan.org>
+
+=item *
+
+David Golden <dagolden@cpan.org>
+
+=item *
+
+Marcel Gruenauer <hanekomu@gmail.com>
+
+=back
+
 =head1 AUTHORS
 
 =over 4

@@ -92,6 +92,11 @@
          "web" : "https://github.com/xenoterracide/dist-zilla-plugin-test-podspelling"
       }
    },
-   "version" : "2.006001"
+   "version" : "2.006001",
+   "x_contributors" : [
+      "Breno G. de Oliveira <garu@cpan.org>",
+      "David Golden <dagolden@cpan.org>",
+      "Marcel Gruenauer <hanekomu@gmail.com>"
+   ]
 }
 
