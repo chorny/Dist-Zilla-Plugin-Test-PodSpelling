@@ -21,9 +21,6 @@ wordlist
 Caleb
 Cushing
 xenoterracide
-Randy
-Stauner
-rwstauner
 Marcel
 Gruenauer
 marcel
@@ -38,6 +35,9 @@ David
 Golden
 dagolden
 hanekomu
+Randy
+Stauner
+rwstauner
 lib
 Dist
 Zilla

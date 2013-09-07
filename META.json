@@ -2,7 +2,6 @@
    "abstract" : "Author tests for POD spelling",
    "author" : [
       "Caleb Cushing <xenoterracide@gmail.com>",
-      "Randy Stauner <rwstauner@cpan.org>",
       "Marcel Gruenauer <marcel@cpan.org>",
       "Harley Pig <harleypig@gmail.com>"
    ],
@@ -96,7 +95,8 @@
    "x_contributors" : [
       "Breno G. de Oliveira <garu@cpan.org>",
       "David Golden <dagolden@cpan.org>",
-      "Marcel Gruenauer <hanekomu@gmail.com>"
+      "Marcel Gruenauer <hanekomu@gmail.com>",
+      "Randy Stauner <rwstauner@cpan.org>"
    ]
 }
 

@@ -228,6 +228,10 @@ David Golden <dagolden@cpan.org>
 
 Marcel Gruenauer <hanekomu@gmail.com>
 
+=item *
+
+Randy Stauner <rwstauner@cpan.org>
+
 =back
 
 =head1 AUTHORS
@@ -237,10 +241,6 @@ Marcel Gruenauer <hanekomu@gmail.com>
 =item *
 
 Caleb Cushing <xenoterracide@gmail.com>
-
-=item *
-
-Randy Stauner <rwstauner@cpan.org>
 
 =item *
 
