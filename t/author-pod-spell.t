@@ -42,6 +42,6 @@ lib
 Dist
 Zilla
 Plugin
-PodSpellingTests
 Test
 PodSpelling
+PodSpellingTests
