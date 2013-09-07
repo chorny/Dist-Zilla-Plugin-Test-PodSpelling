@@ -226,7 +226,7 @@ David Golden <dagolden@cpan.org>
 
 =item *
 
-Marcel Gruenauer <hanekomu@gmail.com>
+Harley Pig <harleypig@gmail.com>
 
 =item *
 
@@ -244,11 +244,7 @@ Caleb Cushing <xenoterracide@gmail.com>
 
 =item *
 
-Marcel Gruenauer <marcel@cpan.org>
-
-=item *
-
-Harley Pig <harleypig@gmail.com>
+Marcel Gruenauer <hanekomu@gmail.com>
 
 =back
 

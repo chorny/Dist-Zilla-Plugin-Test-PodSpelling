@@ -2,8 +2,7 @@
    "abstract" : "Author tests for POD spelling",
    "author" : [
       "Caleb Cushing <xenoterracide@gmail.com>",
-      "Marcel Gruenauer <marcel@cpan.org>",
-      "Harley Pig <harleypig@gmail.com>"
+      "Marcel Gruenauer <hanekomu@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 4.300037, CPAN::Meta::Converter version 2.132140",
@@ -95,7 +94,7 @@
    "x_contributors" : [
       "Breno G. de Oliveira <garu@cpan.org>",
       "David Golden <dagolden@cpan.org>",
-      "Marcel Gruenauer <hanekomu@gmail.com>",
+      "Harley Pig <harleypig@gmail.com>",
       "Randy Stauner <rwstauner@cpan.org>"
    ]
 }

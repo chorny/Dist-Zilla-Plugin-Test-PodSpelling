@@ -2,8 +2,7 @@
 abstract: 'Author tests for POD spelling'
 author:
   - 'Caleb Cushing <xenoterracide@gmail.com>'
-  - 'Marcel Gruenauer <marcel@cpan.org>'
-  - 'Harley Pig <harleypig@gmail.com>'
+  - 'Marcel Gruenauer <hanekomu@gmail.com>'
 build_requires:
   Carp: 0
   Cwd: 0
@@ -56,5 +55,5 @@ version: 2.006001
 x_contributors:
   - 'Breno G. de Oliveira <garu@cpan.org>'
   - 'David Golden <dagolden@cpan.org>'
-  - 'Marcel Gruenauer <hanekomu@gmail.com>'
+  - 'Harley Pig <harleypig@gmail.com>'
   - 'Randy Stauner <rwstauner@cpan.org>'

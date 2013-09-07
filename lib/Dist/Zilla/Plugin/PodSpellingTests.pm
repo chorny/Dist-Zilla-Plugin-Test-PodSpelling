@@ -65,11 +65,7 @@ Caleb Cushing <xenoterracide@gmail.com>
 
 =item *
 
-Marcel Gruenauer <marcel@cpan.org>
-
-=item *
-
-Harley Pig <harleypig@gmail.com>
+Marcel Gruenauer <hanekomu@gmail.com>
 
 =back
 
